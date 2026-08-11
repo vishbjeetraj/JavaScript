@@ -8,21 +8,21 @@ const myArr2 = new Array (1, 2, 3, 4)
 
 //Array Methods
 
-// myArr.push(9)
-// myArr.push(8)         // add element in last
-// myArr.pop()           // remove last value
+myArr.push(9)
+myArr.push(8)         // add element in last
+myArr.pop()           // remove last value
 
-// myArr.unshift(4)     // isse index 0 pe koi bhi element add ho jata hai 
-// myArr.shift()        //isse index 0 pe koi bhi element remove ho jayega 1 element
+myArr.unshift(4)     // isse index 0 pe koi bhi element add ho jata hai 
+myArr.shift()        //isse index 0 pe koi bhi element remove ho jayega 1 element
 
 
-// console.log(myArr.includes(9));  //isme check kar raha hai index 9
-// console.log(myArr.indexOf(44));   //isme check karta hai bo no. hai ya nahi code mai 
+console.log(myArr.includes(9));  //isme check kar raha hai index 9
+console.log(myArr.indexOf(44));   //isme check karta hai bo no. hai ya nahi code mai 
 
-// const newArr = myArr.join()  // yaha join ka use karne se string mai kar diye 
-// console.log(myArr);
-// console.log(newArr);
-// console.log(typeof newArr); //yaha agar check kare to typeof mai string value ayega 
+const newArr = myArr.join()  // yaha join ka use karne se string mai kar diye 
+console.log(myArr);
+console.log(newArr);
+console.log(typeof newArr); //yaha agar check kare to typeof mai string value ayega 
 
 
 console.log("A ", myArr);   // As it is array print karne ke liye
