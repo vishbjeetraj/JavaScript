@@ -5,7 +5,7 @@ const repoCount = 18;
 console.log(`My name is ${name} and My repocount is ${repoCount} `); //String
 
 const gameName = new String("Vishbjeet-raj");
-console.log(gameName[2]); //to know what is in second no.
+console.log(gameName[2]); //to know which elemnet in second index.
 console.log(gameName.__proto__); //
 
 console.log(gameName.length); //length kita bara hai word

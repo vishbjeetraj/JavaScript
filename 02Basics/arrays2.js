@@ -24,13 +24,13 @@ console.log(bollywoodHeros);
 const allActors = bollywoodHeros.concat(bollywoodHeroines);
 console.log(allActors);
 
-const newallActors = [...bollywoodHeros, ...bollywoodHeroines]  
+const newallActors = [...bollywoodHeros, ...bollywoodHeroines]  //Spread function
 /*spread aise bhi hm log add kar sakte to arrays ko or return hoke new array mil jayega */
 console.log(newallActors);
 
 
 const someArr = [1,2,3,4,[4,3,2,[3,74,4,[3456,341,[0,3]]]]]
-const newsomeArr = someArr.flat(3) 
+// const newsomeArr = someArr.flat(3) 
 const newsomeArr = someArr.flat(Infinity) 
 
 /* Actually hmlog yaha pe kar rahe flat ka iska use kar ke bhi hm arrays ko ek sath kar sakte hai or infinity ka use is liye kar rahe hai ke kitna defth chaiye agar hm chaye to no. bhi de sakte hai depth ka but infinity is too is so use */

@@ -17,7 +17,7 @@ console.log(hundred.toLocaleString("en-IN")); // iska use kar ke hm ',' laga sak
 console.log(Math);
 console.log(Math.abs(-4)); // abs se bs - se + mai hota hai
 console.log(Math.round(893.9)); //round ka use se bs total kar ke exact value dega
-console.log(Math.ceil(4.3)); // ceil ka use kar ke hm 4.3 hai mtb 4 se thoda bhi higher value to bo 5 kar dega
+console.log(Math.ceil(4.3)); // ceil ka use kar ke hm 4.3 hai mtb 5 se thoda bhi higher value to bo 5 kar dega
 console.log(Math.floor(4.9)); // floor ka use kar ke 4.9 hai to bo lowest vlaue hi lega
 console.log(Math.min(1, 2, 6, 4, 7, 0)); //min value
 console.log(Math.max(1, 2, 6, 4, 7, 0)); //max value
